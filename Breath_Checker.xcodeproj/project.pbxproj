@@ -11,6 +11,7 @@
 		172A411926454D5F00C3C879 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A411826454D5F00C3C879 /* ContentView.swift */; };
 		172A411B26454D6000C3C879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172A411A26454D6000C3C879 /* Assets.xcassets */; };
 		172A411E26454D6000C3C879 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172A411D26454D6000C3C879 /* Preview Assets.xcassets */; };
+		172A412626454D8800C3C879 /* AudioAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A412526454D8800C3C879 /* AudioAnalyzer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		172A411A26454D6000C3C879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		172A411D26454D6000C3C879 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		172A411F26454D6000C3C879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172A412526454D8800C3C879 /* AudioAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioAnalyzer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				172A411626454D5F00C3C879 /* Breath_CheckerApp.swift */,
 				172A411826454D5F00C3C879 /* ContentView.swift */,
+				172A412526454D8800C3C879 /* AudioAnalyzer.swift */,
 				172A411A26454D6000C3C879 /* Assets.xcassets */,
 				172A411F26454D6000C3C879 /* Info.plist */,
 				172A411C26454D6000C3C879 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				172A411926454D5F00C3C879 /* ContentView.swift in Sources */,
+				172A412626454D8800C3C879 /* AudioAnalyzer.swift in Sources */,
 				172A411726454D5F00C3C879 /* Breath_CheckerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
